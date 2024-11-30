@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0c0c0c;
+            color: white;
+        }
+        .error-container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid rgb(29, 29, 29);
+            border-radius: 10px;
+            background-color: #131313;
+            max-width: 400px;
+        }
+        .error-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .error-message {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .error-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #ffbd00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .error-button:hover {
+            background-color: #ffce46;
+        }
+
+        .van{
+            position: absolute;
+            top: 10%;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/van-quebrada.png" class="van">
+    <div class="error-container">
+        
+        <div class="error-title">Ops! Algo deu errado.</div>
+        <div class="error-message">Não conseguimos processar sua solicitação. Por favor, tente novamente mais tarde.</div>
+        <a href="index.html" class="error-button">Voltar para a página inicial</a>
+    </div>
+</body>
+</html>
